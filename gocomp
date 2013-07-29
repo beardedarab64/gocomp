@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd $0
+g="$1.go"
+l="$1.6"
+6g $g
+6l $l
+rm $l
+./6.out
+rm "6.out"
